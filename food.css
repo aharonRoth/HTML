@@ -1,0 +1,44 @@
+body{
+    background-image: url(foodImages/super.jpg);
+    background-repeat: no-repeat;
+    background-size:cover
+}
+h1{
+    color: red;
+    text-shadow: 2xp 2xp 1xp green;
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    width: 65%;
+    background-color: blue;
+    border-collapse: collapse;
+    color: green;
+    text-align: center;
+}
+td{
+    width: 33.3%;
+    border: 2px solid yellow;
+    padding: 24px;
+    color: aqua;
+    background: fuchsia;
+}
+img{
+    width: 100%;
+    border-radius: 8px;
+}
+td button{
+    padding: 13px;
+    background-color: blueviolet;
+    color: black;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+td button:hover{
+    background-color: brown;
+    color: blue;
+    border: 1px solid green;
+    box-shadow: 2px 3px 2px black;
+    cursor: pointer;
+
+}
